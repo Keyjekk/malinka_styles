@@ -126,7 +126,7 @@ button{
 
 .card_box{
     max-width: 100%;
-    padding: 210px 0px 0px 0px;
+    padding: 210px 0px 40px 0px;
     margin: 0px 12px 0px 12px;
     display: flex;
     flex-wrap: wrap;
