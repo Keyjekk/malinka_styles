@@ -33,74 +33,126 @@
                         <img src="img/image.svg" alt="">
                     </div>
                     <div class="card_information">
-                        <div class="price_box">
-                            <p class="price">24235</p>
-                            <p class="vault">руб.</p>
-                        </div>
                         <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
                     </div>
                     <button class="to_cart">
-                        <p class="add_cart">добавить</p>
+                        <img src="img/add.svg" alt="">
                     </button>
                 </div>
+
                 <div class="card">
                     <div class="card_image">
                         <img src="img/image.svg" alt="">
                     </div>
                     <div class="card_information">
-                        <div class="price_box">
-                            <p class="price">24235</p>
-                            <p class="vault">руб.</p>
-                        </div>
                         <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
                     </div>
                     <button class="to_cart">
-                        <p class="add_cart">добавить</p>
+                        <img src="img/add.svg" alt="">
                     </button>
                 </div>
+
                 <div class="card">
                     <div class="card_image">
                         <img src="img/image.svg" alt="">
                     </div>
                     <div class="card_information">
-                        <div class="price_box">
-                            <p class="price">24235</p>
-                            <p class="vault">руб.</p>
-                        </div>
                         <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
                     </div>
                     <button class="to_cart">
-                        <p class="add_cart">добавить</p>
+                        <img src="img/add.svg" alt="">
                     </button>
                 </div>
+
                 <div class="card">
                     <div class="card_image">
                         <img src="img/image.svg" alt="">
                     </div>
                     <div class="card_information">
-                        <div class="price_box">
-                            <p class="price">24235</p>
-                            <p class="vault">руб.</p>
-                        </div>
                         <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
                     </div>
                     <button class="to_cart">
-                        <p class="add_cart">добавить</p>
+                        <img src="img/add.svg" alt="">
                     </button>
                 </div>
+
                 <div class="card">
                     <div class="card_image">
                         <img src="img/image.svg" alt="">
                     </div>
                     <div class="card_information">
-                        <div class="price_box">
-                            <p class="price">24235</p>
-                            <p class="vault">руб.</p>
-                        </div>
                         <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
                     </div>
                     <button class="to_cart">
-                        <p class="add_cart">добавить</p>
+                        <img src="img/add.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card_image">
+                        <img src="img/image.svg" alt="">
+                    </div>
+                    <div class="card_information">
+                        <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
+                    </div>
+                    <button class="to_cart">
+                        <img src="img/add.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card_image">
+                        <img src="img/image.svg" alt="">
+                    </div>
+                    <div class="card_information">
+                        <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
+                    </div>
+                    <button class="to_cart">
+                        <img src="img/add.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card_image">
+                        <img src="img/image.svg" alt="">
+                    </div>
+                    <div class="card_information">
+                        <p class="name">Интерьер</p>
+                        <div class="price_box">
+                            <p class="price">24 235</p>
+                            <p class="vault">р.</p>
+                        </div>
+                    </div>
+                    <button class="to_cart">
+                        <img src="img/add.svg" alt="">
                     </button>
                 </div>
             </div>
