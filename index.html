@@ -158,8 +158,16 @@
             </div>
     </div>
 
-  <script>
-    tg.MainButton.show();
-  </script>
+    <script>
+
+        let x;
+        addEventListener('touchstart', e => x = e.changedTouches[0].clientX);
+        addEventListener('touchend', e => e.changedTouches[0].clientX - x < 0 && swipeLeft());
+
+        function swipeLeft() {
+            window.location = './cart.html';
+        };
+
+    </script>
 </body>
 </html>

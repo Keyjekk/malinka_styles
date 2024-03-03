@@ -146,5 +146,16 @@
         };
 
     </script>
+
+    <script src="https://telegram.org/js/telegram-web-app.js">
+        let tg = window.Telegram.WebApp;
+
+        tg.MainButton.text = "Тестовая кнопка"; //изменяем текст кнопки 
+        tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
+        tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
+        tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры 
+
+        tg.MainButton.show() //показываем 
+    </script>
 </body>
 </html>

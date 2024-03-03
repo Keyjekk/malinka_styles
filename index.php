@@ -157,5 +157,17 @@
                 </div>
             </div>
     </div>
+
+    <script>
+
+        let x;
+        addEventListener('touchstart', e => x = e.changedTouches[0].clientX);
+        addEventListener('touchend', e => e.changedTouches[0].clientX - x < 0 && swipeLeft());
+
+        function swipeLeft() {
+            window.location = './cart.php';
+        };
+
+    </script>
 </body>
 </html>
