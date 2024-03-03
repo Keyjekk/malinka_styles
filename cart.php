@@ -16,7 +16,7 @@
                     <p class="vault">р.</p>
                 </div>
             </div>
-            <button class="to_cards">назад</button>
+            <button id="btnED" class="to_cards">назад</button>
         </div>
     </div>
     <div class="content">
@@ -142,9 +142,28 @@
         addEventListener('touchend', e => e.changedTouches[0].clientX - x > 0 && swipeRight());
 
         function swipeRight() {
-            window.location = './index.php';
+            window.location = './index.html';
         };
 
+    </script>
+
+    <script src="https://telegram.org/js/telegram-web-app.js">
+        let tg = window.Telegram.WebApp;
+
+        tg.MainButton.text = "Тестовая кнопка"; //изменяем текст кнопки 
+        tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
+        tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
+        tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры 
+
+        let btn = document.getElementById("btnED"); //получаем кнопку активировать/деактивировать
+        btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
+	if (tg.MainButton.isVisible){ //если кнопка показана 
+		tg.MainButton.hide() //скрываем кнопку 
+	}
+  else{ //иначе
+  	tg.MainButton.show() //показываем 
+  }
+});
     </script>
 </body>
 </html>
