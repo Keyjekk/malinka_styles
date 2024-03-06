@@ -133,37 +133,9 @@
                     </button>
                 </div>
             </div>
-    </div>
+        </div>
 
-    <script>
-
-        let x;
-        addEventListener('touchstart', e => x = e.changedTouches[0].clientX);
-        addEventListener('touchend', e => e.changedTouches[0].clientX - x > 0 && swipeRight());
-
-        function swipeRight() {
-            window.location = './index.html';
-        };
-
-    </script>
-
-    <script src="https://telegram.org/js/telegram-web-app.js">
-        let tg = window.Telegram.WebApp;
-
-        tg.MainButton.text = "Тестовая кнопка"; //изменяем текст кнопки 
-        tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
-        tg.MainButton.color = "#143F6B"; //изменяем цвет бэкграунда кнопки
-        tg.MainButton.setParams({"color": "#143F6B"}); //так изменяются все параметры 
-
-        let btn = document.getElementById("btnED"); //получаем кнопку активировать/деактивировать
-        btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-	if (tg.MainButton.isVisible){ //если кнопка показана 
-		tg.MainButton.hide() //скрываем кнопку 
-	}
-  else{ //иначе
-  	tg.MainButton.show() //показываем 
-  }
-});
-    </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="scripts/button_cart.js"></script>
 </body>
 </html>
