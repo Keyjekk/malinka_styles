@@ -13,9 +13,11 @@
                     <img src="img/search.svg">
                     <input placeholder="Давайте искать..." class="search_field">
                 </div>
-                <div id="filter" class="filters">
+                <div class="filters">
                     <img src="img/filter.svg">
                 </div>
+
+                <button onclick="goToCart()"></button>
             </div>
             <div class="categories">
                 <div class="texts">
@@ -159,11 +161,9 @@
     </div>
 
     <script>
-        var p = document.getElementById("filter");
-        p.onclick = goToCart();
 
         function goToPage(){
-            window.location.href = "./cart.html";
+            window.location.href = "cart.html";
         }
     </script>
 </body>
