@@ -17,7 +17,7 @@
                     <img src="img/filter.svg">
                 </div>
 
-                <button onclick="goToCart()"></button>
+                <button id="elem">В корзину</button>
             </div>
             <div class="categories">
                 <div class="texts">
@@ -162,9 +162,9 @@
 
     <script>
 
-        function goToPage(){
-            window.location.href = "cart.html";
-        }
+    elem.onclick = function() {
+        window.location.href="cart.html";
+    };
     </script>
 </body>
 </html>
