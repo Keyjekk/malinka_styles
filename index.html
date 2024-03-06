@@ -13,7 +13,7 @@
                     <img src="img/search.svg">
                     <input placeholder="Давайте искать..." class="search_field">
                 </div>
-                <div class="filters">
+                <div id="filter" class="filters">
                     <img src="img/filter.svg">
                 </div>
             </div>
@@ -157,5 +157,14 @@
                 </div>
             </div>
     </div>
+
+    <script>
+        var p = document.getElementById("filter");
+        p.onclick = goToCart();
+
+        function goToPage(){
+            window.location.href = "./cart.html";
+        }
+    </script>
 </body>
 </html>
